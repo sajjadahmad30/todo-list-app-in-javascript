@@ -1,0 +1,11 @@
+/* First i want to style body. */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(0, 208, 255, 0.297);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
