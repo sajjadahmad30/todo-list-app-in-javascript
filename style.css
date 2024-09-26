@@ -5,7 +5,17 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: rgba(0, 208, 255, 0.297);
+    background: url(./images/4.jpg);
+    background-size: cover;
+    /* background-color: rgba(0, 208, 255, 0.297); */
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    align-items: center;
 }
