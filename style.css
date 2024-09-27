@@ -16,7 +16,7 @@ body{
     background-color: #fff;
     border-radius: 15px;
     padding: 30px;
-    width: 350px;
+    width: 40%;
     align-items: center;
 }
 .container h1{
@@ -24,7 +24,8 @@ body{
     box-shadow: 2px 2px 4px 3px rgba(213, 21, 59, 0.213);
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 2.5rem;
+    font-size:2rem;
+    padding: 5px;
     color: rgba(220, 20, 57, 0.819);
     font-weight: bolder;
   
@@ -37,7 +38,6 @@ body{
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: bold;
-
     outline: none;
     transition: border 0.2s;
 }
