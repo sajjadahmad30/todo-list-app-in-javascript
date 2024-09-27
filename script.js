@@ -6,10 +6,19 @@ function addTask(){
     if(!taskInput.value.trim()){
         return alert("Todo can't be empty. Try again")
     }
-
+    
     // create a new list item
     let li =document.createElement("li")
     li.textContent= taskInput.value;
+
+    //remove button
+    let removeButton =document.createElement("button");
+    removeButton.textContent='Remove'
+    removeButton.className='remove-btn'
+    li.appendChild(removeButton)
+    removeButton.onclick=function(){
+        taskList.removeChild(li);
+    }
 
 
 
