@@ -25,10 +25,12 @@ function addTask(){
         li.classList.toggle("completed")
     }
 
-
-
+    
     // append the li into  taskList 
     taskList.appendChild(li)
+
+    // clear the input field
+    taskInput.value= '';
 
 }
 
