@@ -83,7 +83,7 @@ li:hover{
 
 
 /* completed tasks */
-.complete{
+.completed{
     text-decoration: line-through;
     color: gray;
 }
@@ -91,7 +91,7 @@ li:hover{
 /* Remove button styling  */
 .remove-btn{
     background-color: rgba(220, 20, 57, 0.819);
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -100,5 +100,5 @@ li:hover{
 }
 .remove-btn:hover{
     background-color: crimson;
-    box-shadow: 1px 1px 2px 2px black;   
+    box-shadow: 1px 1px 1px 1px black;   
 }
